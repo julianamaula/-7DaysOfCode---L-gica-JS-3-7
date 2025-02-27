@@ -102,7 +102,7 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
    - Instruções claras para quem quiser contribuir com o projeto.
 
 7. **Licença**:
-   - Informa sobre a licença do projeto (MIT).
+   - Informa sobre a licença do projeto [MIT](https://github.com/julianamaula/-7DaysOfCode---L-gica-JS-3-7/blob/main/LICENSE).
 
 ---
 

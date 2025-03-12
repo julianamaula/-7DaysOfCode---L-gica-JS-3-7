@@ -4,17 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jogo de Escolha de Carreira em Programação</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    
 </head>
 <body>
-    <h1>Jogo de Escolha de Carreira em Programação</h1>
- <div class="container">
-    <div id="output" class="output"></div>
-  </div>
+    <header>
+        <h1>Jogo de Escolha de Carreira em Programação</h1>
+    </header>
+
+    <main class="container">
+        <div id="output" class="output"></div>
+        <div id="input-container" class="input-container">
+            <input type="text" id="user-input" placeholder="Digite sua escolha...">
+            <button id="submit-btn" class="btn"><i class="fas fa-paper-plane"></i> Enviar</button>
+            <button id="restart-btn" class="btn" style="display:none;"><i class="fas fa-sync-alt"></i> Reiniciar</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Jogo de Carreira em Programação. Todos os direitos reservados.</p>
+    </footer>
 
     <script src="app.js"></script>
-     <!-- Inclua a biblioteca canvas-confetti -->
-     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
 </body>
 </html>
